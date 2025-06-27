@@ -1,0 +1,214 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #0b111e;
+  color: #eee;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  background: #161b2f;
+  padding: 20px 0;
+  border-bottom: 2px solid #3e50ff;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #3e50ff;
+  letter-spacing: 3px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #aaa;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #3e50ff;
+  border-bottom: 2px solid #3e50ff;
+  padding-bottom: 2px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #3e50ff 0%, #0b111e 100%);
+  text-align: center;
+  padding: 70px 20px;
+  border-radius: 8px;
+  margin: 40px auto 30px;
+  box-shadow: 0 8px 20px rgba(62,80,255,0.4);
+}
+
+.hero h2 {
+  font-size: 2.6rem;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: #3e50ff;
+  color: #fff;
+  padding: 14px 32px;
+  font-weight: 700;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background: #596eff;
+  box-shadow: 0 6px 15px rgba(62,80,255,0.6);
+}
+
+.features {
+  margin-bottom: 50px;
+  background: #161b2f;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(62,80,255,0.15);
+}
+
+.features h3 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #3e50ff;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+.features-list {
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #ddd;
+}
+
+.features-list li {
+  margin-bottom: 18px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.features-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #3e50ff;
+  font-weight: bold;
+}
+
+.download {
+  background: #161b2f;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(62,80,255,0.15);
+  max-width: 700px;
+  margin: 40px auto 60px;
+  color: #ddd;
+}
+
+.download h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3e50ff;
+  margin-bottom: 20px;
+}
+
+.download p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  opacity: 0.9;
+}
+
+.download-box {
+  background: #0b111e;
+  padding: 30px 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(62,80,255,0.35);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.download-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #85a1ff;
+}
+
+.download-box p {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #aac4ff;
+}
+
+.install-instructions h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #3e50ff;
+}
+
+.install-instructions ol {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.install-instructions ol li {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background: #161b2f;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #3e50ff;
+  margin-top: auto;
+}
