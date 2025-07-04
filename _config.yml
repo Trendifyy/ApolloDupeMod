@@ -1,0 +1,22 @@
+title: Apollo - Minecraft Duplication Mod
+description: Apollo is a powerful duplication mod for Minecraft 1.20 with Forge. Download the latest version and enhance your Minecraft experience.
+url: https://github.com/Trendifyy/ApolloDupeMod
+baseurl: ""
+
+# SEO settings
+lang: en-US
+author: Apollo Development Team
+twitter:
+  username: 
+  card: summary_large_image
+
+# GitHub Pages settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
