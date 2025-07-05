@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo - Premium Minecraft Duplication Mod</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles"></div>
+    <div id="grid-overlay"></div>
+    
+    <nav class="premium-nav">
+        <div class="nav-brand">
+            <div class="logo-icon">A</div>
+            <span class="brand-name">Apollo</span>
+            <span class="brand-subtitle">Duplication Mod</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="https://github.com/Trendifyy/ApolloDupeMod" target="_blank" class="github-link">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-text">DonutSMP Edition</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-apollo">APOLLO</span>
+                <span class="title-subtitle">Premium Minecraft Enhancement</span>
+            </h1>
+            <p class="hero-description">
+                The most advanced and reliable duplication mod for Minecraft. Apollo provides 
+                seamless item duplication with professional-grade security, performance optimization,
+                and intuitive controls designed for the modern Minecraft player.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="total-downloads">2,847</span>
+                    <span class="stat-label">Total Downloads</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1.20</span>
+                    <span class="stat-label">Minecraft Version</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">v3.0.0</span>
+                    <span class="stat-label">Latest Release</span>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <button class="btn-primary download-btn">
+                    <span>Download Apollo</span>
+                    <div class="btn-glow"></div>
+                </button>
+                <button class="btn-secondary docs-btn">
+                    <span>View Documentation</span>
+                </button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-cube">
+                <div class="cube-face front"></div>
+                <div class="cube-face back"></div>
+                <div class="cube-face right"></div>
+                <div class="cube-face left"></div>
+                <div class="cube-face top"></div>
+                <div class="cube-face bottom"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <div class="section-header">
+            <h2 class="section-title">Why Choose Apollo</h2>
+            <p class="section-subtitle">Engineered for performance, built for reliability</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card premium">
+                <div class="feature-icon">⚡</div>
+                <h3>Lightning Performance</h3>
+                <p>Optimized algorithms ensure zero-latency operations with minimal server impact and maximum efficiency.</p>
+            </div>
+            <div class="feature-card premium">
+                <div class="feature-icon">🛡️</div>
+                <h3>Enterprise Security</h3>
+                <p>Advanced anti-exploit protection with comprehensive logging, permissions, and audit trails.</p>
+            </div>
+            <div class="feature-card premium">
+                <div class="feature-icon">⚙️</div>
+                <h3>Intelligent Configuration</h3>
+                <p>Granular control over operations with smart defaults and intuitive configuration management.</p>
+            </div>
+            <div class="feature-card premium">
+                <div class="feature-icon">💎</div>
+                <h3>DonutSMP Optimized</h3>
+                <p>Specifically engineered for DonutSMP server architecture and gameplay mechanics.</p>
+            </div>
+            <div class="feature-card premium">
+                <div class="feature-icon">📊</div>
+                <h3>Real-time Analytics</h3>
+                <p>Comprehensive usage statistics and performance monitoring with detailed insights.</p>
+            </div>
+            <div class="feature-card premium">
+                <div class="feature-icon">🚀</div>
+                <h3>One-Click Deployment</h3>
+                <p>Seamless installation process with automatic dependency resolution and configuration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="installation" class="installation-section">
+        <div class="section-header">
+            <h2 class="section-title">Installation Guide</h2>
+            <p class="section-subtitle">Get up and running in under 60 seconds</p>
+        </div>
+        <div class="installation-steps">
+            <div class="step-card">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3>Download</h3>
+                    <p>Obtain the latest Apollo release package</p>
+                    <code>ApolloDupe-v3.0.0.jar</code>
+                </div>
+            </div>
+            <div class="step-connector"></div>
+            <div class="step-card">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3>Install</h3>
+                    <p>Place in your Minecraft mods directory</p>
+                    <code>~/.minecraft/mods/</code>
+                </div>
+            </div>
+            <div class="step-connector"></div>
+            <div class="step-card">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3>Launch</h3>
+                    <p>Start Minecraft with Forge profile</p>
+                    <code>minecraft-forge-1.20</code>
+                </div>
+            </div>
+        </div>
+        <div class="installation-note">
+            <div class="note-icon">ℹ️</div>
+            <p><strong>Requirements:</strong> Minecraft 1.20 with Forge installed. Compatible with OptiFine and most popular mods.</p>
+        </div>
+    </section>
+
+    <section id="download" class="download-section">
+        <div class="download-container">
+            <div class="download-header">
+                <h2>Apollo v3.0.0</h2>
+                <p>Latest stable release with enhanced features</p>
+            </div>
+            <div class="download-details">
+                <div class="detail-item">
+                    <span class="detail-label">Release Date</span>
+                    <span class="detail-value">January 4, 2025</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">File Size</span>
+                    <span class="detail-value">2.4 MB</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Downloads</span>
+                    <span class="detail-value" id="download-count">2,847</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Compatibility</span>
+                    <span class="detail-value">Minecraft 1.20</span>
+                </div>
+            </div>
+            <div class="download-actions">
+                <a href="./attached_assets/ApolloDupe.jar" class="btn-download">
+                    <span>Download Apollo</span>
+                    <div class="download-icon">⬇</div>
+                </a>
+                <a href="https://github.com/Trendifyy/ApolloDupeMod" target="_blank" class="btn-github">
+                    <span>View on GitHub</span>
+                    <div class="github-icon">⧉</div>
+                </a>
+            </div>
+            <div class="download-checksum">
+                <span class="checksum-label">SHA256:</span>
+                <code class="checksum-value">a7b9c5d2e8f1...</code>
+            </div>
+        </div>
+    </section>
+
+    <footer class="premium-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">A</div>
+                <span>Apollo</span>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#download">Download</a>
+                <a href="https://github.com/Trendifyy/ApolloDupeMod">GitHub</a>
+            </div>
+            <div class="footer-legal">
+                <p>&copy; 2025 Apollo Development Team. Built for DonutSMP.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
